@@ -30,7 +30,7 @@ int main()
   int  Rozmiar = IloscKodow * sizeof('¶');/*zly rozmiar, zamiana char na int */
 
   int  *TabKodow = (int*)malloc(Rozmiar);
-  char *TabZnakow = (char*)malloc(IloscKodow*sizeof(char)); 
+  char *TabZnakow = (char*)malloc(IloscKodow*sizeof(int)); 
   char *Napis = strdup("Cze¶æ ¦wiecie!!! ¯yczê mi³ego dnia.");
 
   TabKodow[0] = 'æ';     TabZnakow[0] = 'c';
