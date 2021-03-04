@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-double Dodaj(double Skl1,double Skl2);
+double Dodaj(double Skl1,double Skl2);/*w c++ muszą być zadeklarowane wszystkie zmienne */
 
 
 int main( )
