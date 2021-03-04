@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-extern const double PI;
-extern const double E;
+extern const double PI; /*zamiana extern na static*/
+extern const double E; 
 
 
 int main()
