@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+#include <cstdio> /*biblioteki dla c++*/
+#include <cmath>
 
 
 struct TrojmianKw {
